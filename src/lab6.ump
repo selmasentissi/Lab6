@@ -1,0 +1,18 @@
+class Customer
+{
+  name; 
+  lastName;
+  1 -- * Order;
+}
+
+class Account
+{
+  long number;
+  * --1 Customer;
+}
+
+class Order
+{
+  String creationDate;
+  double amount;
+}
